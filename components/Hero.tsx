@@ -21,16 +21,16 @@ export function Hero() {
       <div className="container-wide relative">
         <div className="flex min-h-[34rem] flex-col items-center justify-center py-24 text-center sm:min-h-[40rem] sm:py-28 lg:min-h-[44rem] lg:py-32">
           <div className="mb-6 flex items-center gap-3">
-            <span className="h-px w-10 bg-gold-500" />
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gold-400">
+            <span className="h-px w-10 bg-sky-500" />
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-400">
               Manchester &amp; Surrounding Areas
             </p>
-            <span className="h-px w-10 bg-gold-500" />
+            <span className="h-px w-10 bg-sky-500" />
           </div>
 
           <h1 className="max-w-4xl font-display text-4xl font-semibold uppercase tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl lg:leading-[1.05]">
             Professional{" "}
-            <span className="text-gold-400">Security</span>
+            <span className="text-sky-400">Security</span>
             <br className="hidden sm:block" />
             {" "}&amp; Cleaning Services
           </h1>
