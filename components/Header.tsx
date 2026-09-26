@@ -55,14 +55,7 @@ export function Header() {
   className="h-9 w-auto"
   priority
 />
-            <div className="hidden sm:block">
-              <span className="block text-base font-semibold tracking-tight text-ink-950">
-                Aston Services
-              </span>
-              <span className="block text-[10px] font-medium uppercase tracking-wider text-sky-600">
-                Limited
-              </span>
-            </div>
+            
           </Link>
 
           <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Main">
