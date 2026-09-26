@@ -46,9 +46,14 @@ export function Header() {
             className="flex shrink-0 items-center gap-2.5 focus-visible:outline-none"
             onClick={() => setMobileOpen(false)}
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-sky-500 text-sm font-bold tracking-tight text-white">
-              AS
-            </span>
+            <Image
+  src="/images/logo.jpg"
+  alt="Aston Services Limited"
+  width={140}
+  height={40}
+  className="h-9 w-auto"
+  priority
+/>
             <div className="hidden sm:block">
               <span className="block text-base font-semibold tracking-tight text-ink-950">
                 Aston Services
