@@ -50,8 +50,8 @@ export function Header() {
             <Image
   src="/images/logo.jpg"
   alt="Aston Services Limited"
-  width={140}
-  height={40}
+  width={150}
+  height={50}
   className="h-9 w-auto"
   priority
 />
