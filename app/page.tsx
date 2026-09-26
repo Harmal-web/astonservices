@@ -4,6 +4,7 @@ import { Hero } from "@/components/Hero";
 import { ServiceCard } from "@/components/ServiceCard";
 import { CTASection } from "@/components/CTASection";
 import { company, securityServices, cleaningServices } from "@/lib/data";
+import { TestimonialsMarquee } from "@/components/TestimonialsMarquee";
 
 export default function HomePage() {
   return (
@@ -270,6 +271,8 @@ export default function HomePage() {
     </div>
   </div>
 </section>
+
+<TestimonialsMarquee />
       
       {/* How we work */}
       <section className="section-padding bg-ink-50">
