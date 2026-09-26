@@ -27,7 +27,7 @@ export function ServiceCard({
   return (
     <Link
       href={href}
-      className="group relative flex aspect-[4/3] flex-col justify-end overflow-hidden rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2"
+      className="group relative flex aspect-[4/3] flex-col justify-end overflow-hidden rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 focus-visible:ring-offset-2"
     >
       <Image
         src={image}
@@ -39,7 +39,7 @@ export function ServiceCard({
       <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/60 to-ink-950/20 transition-opacity group-hover:from-ink-950/95" />
 
       <div className="relative z-10 p-5 sm:p-6">
-        <span className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-gold-500/90 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-ink-950">
+        <span className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-sky-500/90 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-ink-950">
           {badgeLabel}
         </span>
         <h3 className="text-xl font-semibold uppercase tracking-tight text-white sm:text-2xl">
@@ -48,7 +48,7 @@ export function ServiceCard({
         <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-ink-200">
           {shortDescription}
         </p>
-        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-gold-400 transition-colors group-hover:text-gold-300">
+        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-sky-400 transition-colors group-hover:text-sky-300">
           Explore Service
           <svg
             className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
