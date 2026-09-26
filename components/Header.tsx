@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { company, navLinks } from "@/lib/data";
 import { cn } from "@/lib/utils";
+import Image from "next/image"
 
 export function Header() {
   const pathname = usePathname();
