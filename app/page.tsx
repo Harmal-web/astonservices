@@ -14,7 +14,7 @@ export default function HomePage() {
       {/* Key points bar */}
       <section className="bg-gold-500">
         <div className="container-wide">
-          <div className="grid grid-cols-2 divide-x divide-gold-600/40 lg:grid-cols-4">
+          <div className="grid grid-cols-2 divide-x divide-gold-600/40 lg:grid-cols-2">
             {[
               { label: "Security", sub: "Guarding & Patrols" },
               { label: "Cleaning", sub: "Commercial Premises" },
