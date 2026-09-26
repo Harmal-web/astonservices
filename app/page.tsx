@@ -72,11 +72,14 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="mt-8 text-center">
-            <Link href="/cleaning" className="btn-secondary">
-              View all cleaning services
-            </Link>
-          </div>
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+  <Link href="/security" className="btn-secondary">
+    View all security services
+  </Link>
+  <Link href="/cleaning" className="btn-secondary">
+    View all cleaning services
+  </Link>
+</div>
         </div>
       </section>
 
