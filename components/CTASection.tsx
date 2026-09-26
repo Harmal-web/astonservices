@@ -18,10 +18,10 @@ export function CTASection({
 }: CTASectionProps) {
   return (
     <section className="relative overflow-hidden bg-ink-950">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gold-500/10 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-500/10 via-transparent to-transparent" />
       <div className="container-wide relative section-padding">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="accent-line justify-center !text-gold-400">
+          <p className="accent-line justify-center !text-sky-400">
             Get in touch
           </p>
           <h2 className="font-display text-2xl font-semibold tracking-tight text-white sm:text-3xl lg:text-4xl">
@@ -33,7 +33,7 @@ export function CTASection({
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href={primaryHref}
-              className="btn-primary !px-7 !py-3.5 !text-base shadow-gold"
+              className="btn-primary !px-7 !py-3.5 !text-base shadow-sky"
             >
               {primaryLabel}
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
