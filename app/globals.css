@@ -18,11 +18,11 @@
   }
 
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-gold-500;
+    @apply outline-2 outline-offset-2 outline-sky-500;
   }
 
   ::selection {
-    @apply bg-gold-200 text-ink-950;
+    @apply bg-sky-200 text-ink-950;
   }
 }
 
