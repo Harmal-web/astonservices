@@ -177,6 +177,100 @@ export default function HomePage() {
         </div>
       </section>
 
+{/* Featured: Mobile Patrols */}
+<section className="bg-ink-950">
+  <div className="container-wide section-padding">
+    <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+      {/* Image left */}
+      <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+        <Image
+          src="/images/mobile-patrol.webp"
+          alt="Mobile patrol security vehicle"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 50vw"
+        />
+      </div>
+
+      {/* Text right */}
+      <div>
+        <p className="accent-line !text-gold-400">Security Service</p>
+        <h2 className="font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          Mobile Patrols
+        </h2>
+        <p className="mt-4 text-base leading-relaxed text-ink-300">
+          Regular vehicle and foot patrols that check multiple sites and respond to incidents as required.
+        </p>
+        <ul className="mt-6 space-y-3">
+          {[
+            "Scheduled and random patrol routes",
+            "Visible deterrence across multiple sites",
+            "Incident reporting",
+            "Flexible coverage",
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-3 text-ink-200">
+              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />
+              {item}
+            </li>
+          ))}
+        </ul>
+        <Link href="/security/mobile-patrols" className="btn-primary mt-8 !px-6">
+          Explore Mobile Patrols
+          <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Featured: Retail & Showrooms */}
+<section className="bg-white">
+  <div className="container-wide section-padding">
+    <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+      {/* Text left */}
+      <div className="order-2 lg:order-1">
+        <p className="accent-line">Commercial Cleaning</p>
+        <h2 className="heading-section">Retail & Showrooms</h2>
+        <p className="mt-4 body-large">
+          Cleaning services tailored to retail floors, display areas, and customer-facing spaces.
+        </p>
+        <ul className="mt-6 space-y-3">
+          {[
+            "High-traffic floor cleaning",
+            "Display and showroom areas",
+            "Customer-facing presentation",
+            "Flexible scheduling",
+          ].map((item) => (
+            <li key={item} className="flex items-start gap-3 text-ink-700">
+              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />
+              {item}
+            </li>
+          ))}
+        </ul>
+        <Link href="/cleaning/retail-showrooms" className="btn-primary mt-8 !px-6">
+          Explore Retail Cleaning
+          <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </Link>
+      </div>
+
+      {/* Image right */}
+      <div className="relative order-1 aspect-[4/3] overflow-hidden rounded-xl lg:order-2">
+        <Image
+          src="/images/retail-cleaning.jpg"
+          alt="Clean retail showroom floor and displays"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 50vw"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+      
       {/* How we work */}
       <section className="section-padding bg-ink-50">
         <div className="container-wide">
