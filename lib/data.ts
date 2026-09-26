@@ -88,7 +88,7 @@ export const cleaningServices = [
       "Cleaning support for warehouses, industrial units, and larger operational facilities.",
     description:
       "Industrial and warehouse cleaning addresses the practical needs of larger operational spaces. This can include floor cleaning, high-level dusting, loading areas, and welfare facilities, scheduled around operational requirements.",
-    image: "/images/office-cleaning.jpg", // placeholder - no dedicated industrial image
+    image: "/images/industrial-cleaning-services.jpg", // placeholder - no dedicated industrial image
     imageAlt: "Industrial facility cleaning",
   },
   {
@@ -98,7 +98,7 @@ export const cleaningServices = [
       "Thorough one-off cleans for handover, refurbishment, or end-of-tenancy requirements.",
     description:
       "Deep cleans and end-of-tenancy cleans provide a more intensive clean than regular maintenance. These services are commonly requested when premises are being handed over, refurbished, or prepared for new occupants.",
-    image: "/images/retail-cleaning.jpg", // placeholder
+    image: "/images/end-of-tenancy-cleaning.jpg", // placeholder
     imageAlt: "Thorough deep clean of commercial premises",
   },
 ] as const;
